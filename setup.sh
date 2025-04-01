@@ -9,6 +9,7 @@ conda rpd openvla
 
 git clone https://github.com/Lifelong-Robot-Learning/LIBERO.git
 git clone https://github.com/openvla/openvla.git
+git clone https://github.com/krohling/refined-policy-distillation.git
 
 cd openvla
 pip install -e .
