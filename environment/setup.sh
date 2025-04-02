@@ -16,9 +16,12 @@ pip install -e .
 
 cd ../LIBERO
 pip install -e .
+pip install -r requirements.txt
 
 cd ../openvla
 pip install -r experiments/robot/libero/libero_requirements.txt
 
 cd ../refined-policy-distillation
 pip install -r requirements-ppo.txt
+
+pip install transformers==4.40.1

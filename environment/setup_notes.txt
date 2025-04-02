@@ -1,0 +1,5 @@
+conda env create -f environment.yml
+
+conda env create -f full-environment.yml
+
+conda create --name rpd --file spec-file.txt
